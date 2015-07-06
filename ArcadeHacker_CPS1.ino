@@ -1,4 +1,4 @@
-// CP1 Desuicider 1.0 by arcadehacker.blogspot.com
+// CP1 Desuicider 1.01 by arcadehacker.blogspot.com
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
@@ -50,14 +50,14 @@ char* GameList[] =
   "Captain Comando ",
   "King of Dragons ",
   "Knights of the R",
-  "Muscle Bomber",
-  "Muscle Bomb. Duo"
+  "Muscle Bomber   ",
+  "Muscle Bomb. Duo",
   "Punisher        ",
   "Quiz & Dragons  ",
   "Slammasters     ",
   "Three Wonders   ",
   "Varth (Japan)   ",
-  "Warriors of Fate",
+  "Warriors of Fate"
   };
   
 unsigned char mask = 1; // Bit 
