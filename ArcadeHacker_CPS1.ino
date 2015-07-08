@@ -1,12 +1,12 @@
-// CP1 Desuicider 1.01 by arcadehacker.blogspot.com
+ // CP1 Desuicider 1.02 by arcadehacker.blogspot.com
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 //  CPS1 C Board interface pins
-#define PIN62       3   //Data.       Connect programmer pin 3 to CNB pin 62
-#define PIN61       2   //Clock #2.   Connect programmer pin 4 to CNB pin 61
+#define PIN61       2   //Clock #2.   Connect programmer pin 3 to CNB pin 61
+#define PIN62       3   //Data.       Connect programmer pin 4 to CNB pin 62
 #define PIN42       11  //Clock #1.   Connect programmer pin 5 to CNA pin 19
 #define PIN44       12  //Setup.      Connect programmer pin 6 to CNA pin 20
 
