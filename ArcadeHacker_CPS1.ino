@@ -222,9 +222,13 @@ void loop()   /*----( LOOP: RUNS CONSTANTLY )----*/
       }
     case btnUP:
       {
-     if (c != 0) {c--;}
-     lcd.print(GameList[c]);
-        break;
+       if (c !=0)
+        {
+          if (c > 0) {c--;} else {c++;}
+        }
+      
+       lcd.print(GameList[c]);
+       break;
       }
     case btnDOWN:
       {
