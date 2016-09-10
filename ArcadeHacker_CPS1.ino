@@ -1,14 +1,28 @@
  // CP1 Desuicider 1.06 by arcadehacker.blogspot.com
+
+/*
+ *
+ * Shield ISP Header Pinout
+ * -----------------------------
+ *   (2) (4) (6)    1- MISO; 2- Vcc;   3- SCK
+ *   (1) (3) (5)    4- MOSI; 5- Reset; 6- GND
+ *
+ * Shield Extra I/O Pinout
+ * ---------------------------
+ *  (13) (12) (11) (3) (2) (1) (0)
+ *
+ */
+
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 //  CPS1 C Board interface pins
-#define PIN61       2   //Clock #2.   Connect programmer pin 3 to CNB pin 61
-#define PIN62       3   //Data.       Connect programmer pin 4 to CNB pin 62
-#define PIN42       11  //Clock #1.   Connect programmer pin 5 to CNA pin 19
-#define PIN44       12  //Setup.      Connect programmer pin 6 to CNA pin 20
+#define PIN61       2   //Clock #2.   Connect programmer pin 3 (LCD Extra I/O Pin# 2) to CNB pin 61
+#define PIN62       3   //Data.       Connect programmer pin 4 (LCD Extra I/O Pin# 3) to CNB pin 62
+#define PIN42       11  //Clock #1.   Connect programmer pin 5 (LCD Extra I/O Pin# 11) to CNA pin 19
+#define PIN44       12  //Setup.      Connect programmer pin 6 (LCD Extra I/O Pin# 12) to CNA pin 20
 
 
 int lcd_key       = 0;
