@@ -1,8 +1,4 @@
-<<<<<<< HEAD
- // CPS1 Desuicider 1.07 by arcadehacker.blogspot.com
-=======
- // CP1 Desuicider 1.06 by arcadehacker.blogspot.com
-
+// CPS1 Desuicider 1.07 by arcadehacker.blogspot.com
 /*
  *
  * Shield ISP Header Pinout
@@ -16,7 +12,6 @@
  *
  */
 
->>>>>>> 90b6c382be0904a9def374bae0d6c2957730f660
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
